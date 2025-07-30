@@ -45,8 +45,12 @@ st.markdown("""
 def load_assets_v2(): # Renamed to ensure cache was cleared.
     """Load all necessary assets and calculate calibration factors."""
     try:
-        docs_path = '../docs'
-        data_path = '../data'
+        # --- FIX: Construct paths relative to the script's location ---
+        # This makes the app runnable from any directory.
+        script_dir = os.path.dirname(__file__)
+        docs_path = os.path.join(script_dir, '../docs')
+        data_path = os.path.join(script_dir, '../data')
+        
         model_file = os.path.join(docs_path, 'price_prediction_model.pkl')
         metadata_file = os.path.join(docs_path, 'model_metadata.json')
         historical_file = os.path.join(data_path, 'MEDLISPRI12086.csv')
