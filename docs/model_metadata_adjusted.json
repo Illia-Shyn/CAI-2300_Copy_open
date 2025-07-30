@@ -1,0 +1,28 @@
+{
+  "model_type": "RandomForestRegressor",
+  "features": [
+    "TOT_LVG_AREA",
+    "LND_SQFOOT",
+    "SPEC_FEAT_VAL",
+    "age",
+    "OCEAN_DIST",
+    "WATER_DIST",
+    "CNTR_DIST",
+    "structure_quality",
+    "price_per_sqft_adjusted",
+    "land_to_building_ratio",
+    "log_ocean_dist",
+    "log_water_dist",
+    "log_center_dist",
+    "has_special_features"
+  ],
+  "mae": 5341.78546011243,
+  "r2_score": 0.9970702452514082,
+  "training_samples": 11145,
+  "test_samples": 2787,
+  "avg_price": 541254.7476213035,
+  "error_percentage": 0.9835101433792915,
+  "appreciation_factor": 1.3533333333333333,
+  "original_avg_price": 399941.9317398794,
+  "adjusted_avg_price": 541254.7476213035
+}

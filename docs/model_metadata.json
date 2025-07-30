@@ -1,0 +1,19 @@
+{
+  "model_type": "RandomForestRegressor (Log-Transformed Target)",
+  "features": [
+    "TOT_LVG_AREA",
+    "LND_SQFOOT",
+    "age",
+    "structure_quality",
+    "log_OCEAN_DIST",
+    "log_WATER_DIST",
+    "log_CNTR_DIST"
+  ],
+  "r2_score": 0.9010811275717958,
+  "mae": 50606.073184408466,
+  "top_features": [
+    "TOT_LVG_AREA",
+    "log_CNTR_DIST",
+    "log_OCEAN_DIST"
+  ]
+}

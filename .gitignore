@@ -1,0 +1,15 @@
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+
+# IDE / Editor specific files
+.vscode/
+.idea/
+
+# macOS specific files
+.DS_Store
+
+# Large data files (Optional but good practice)
+# If you don't want to upload the large CSVs to GitHub, uncomment the line below
+# data/ 

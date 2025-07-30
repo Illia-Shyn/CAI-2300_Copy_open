@@ -1,0 +1,28 @@
+{
+  "total_properties": 13932,
+  "avg_price": 541254.7476213035,
+  "median_price": 419533.3333333333,
+  "avg_sqft": 2058.044573643411,
+  "avg_price_per_sqft": 255.60856978766287,
+  "price_range": {
+    "min": 97440.0,
+    "max": 3586333.333333333
+  },
+  "model_performance": {
+    "mae": 5341.78546011243,
+    "r2_score": 0.9970702452514082,
+    "error_percentage": 0.9835101433792915
+  },
+  "market_adjustment": {
+    "appreciation_factor": 1.3533333333333333,
+    "original_avg_price": 399941.9317398794,
+    "adjusted_avg_price": 541254.7476213035
+  },
+  "top_features": [
+    "price_per_sqft_adjusted",
+    "TOT_LVG_AREA",
+    "land_to_building_ratio",
+    "SPEC_FEAT_VAL",
+    "LND_SQFOOT"
+  ]
+}
